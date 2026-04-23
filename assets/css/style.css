@@ -4,7 +4,7 @@
 
 :root {
   /* Colors */
-  --primary-color: rgb(10, 93, 128);
+  --primary-color: rgb(128, 118, 10);
   --primary-hover: rgb(8, 74, 102);
   --primary-light: rgba(10, 93, 128, 0.1);
   --text-primary: rgba(51, 51, 51, 0.9);
