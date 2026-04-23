@@ -1,5 +1,7 @@
 const NEWS_ITEMS = [
-  `<strong>[Apr 2026]</strong> Our paper, <a href="" target="_blank"><span style="color: rgb(10, 93, 128)">Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning</span></a>, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(10, 93, 128)">MDPI Informatics 2026</span></a>`,
+  `<strong>[Apr 2026]</strong> Our paper, Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning, was accepted in <a href="http://jecasmu.org" target="_blank"><span style="color: rgb(10, 93, 128)">JECASMU 2026</span></a>`,
+  
+  `<strong>[Apr 2026]</strong> Our paper, From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems, was accepted in <a href="http://www.mdpi.com/journal/informatics" target="_blank"><span style="color: rgb(10, 93, 128)">MDPI Informatics 2026</span></a>`,
   
   `<strong>[Jan 2026]</strong> I completed my Masters Degree in Computer Science at the University of Lagos</a>.`,
   
