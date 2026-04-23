@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My View</title>
+        <title>Blog | Oluwatobi Malomo</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -16,6 +16,72 @@
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
         />
+
+        <style>
+          .blog-list {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+          }
+
+          .blog-post-entry {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 2rem;
+          }
+
+          .blog-post-entry:last-child {
+            border-bottom: none;
+          }
+
+          .blog-post-meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 0.4rem;
+          }
+
+          .blog-post-meta .category-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #fff;
+            background-color: #2e8ece;
+            border-radius: 3px;
+            padding: 2px 8px;
+            margin-right: 0.5rem;
+          }
+
+          .blog-post-entry h2 {
+            margin: 0.3rem 0 0.6rem;
+            font-size: 1.25rem;
+          }
+
+          .blog-post-entry h2 a {
+            text-decoration: none;
+          }
+
+          .blog-post-entry h2 a:hover {
+            text-decoration: underline;
+          }
+
+          .blog-post-excerpt {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 0.8rem;
+          }
+
+          .read-more-link {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-decoration: none;
+          }
+
+          .read-more-link:hover {
+            text-decoration: underline;
+          }
+        </style>
       </head>
 
     <body>
@@ -23,14 +89,14 @@
           <nav class="nav">
             <div class="container flex-wrap">
               <h1 class="logo">
-                <a href="https://stevenkolawole.github.io/">Steven Kolawole</a>
+                <a href="https://oluwatobimalomo.github.io/">Oluwatobi Malomo</a>
               </h1>
               <ul class="navbar">
                 <li><a href="index.html">About</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="news.html">Recent Highlights</a></li>
                 <li><a href="blog.html" class="active">Blog</a></li>
-                <li><a href="assets/docs/Steven_Kolawole_CV.pdf" target="_blank">CV</a></li>
+                <li><a href="assets/docs/Oluwatobi_Malomo.pdf" target="_blank">CV</a></li>
               </ul>
             </div>
           </nav>
@@ -38,15 +104,128 @@
     
         <div class="page container">
             <h1 class="header-name">Blog</h1>
-            <div class="blog-container">
-                
-                <img src="assets/img/undraw_under_construction_46pa.png" alt="Under Construction">
-                <h1>This page is under construction. For now, I still write occasionally on Medium about my career-related (but life-ish) experiences.</h1>
-                <div class="read-more-button">
-                    <a target="_blank" href="https://stevenkolawole.medium.com/" >Go to Medium</a>
+
+            <div class="blog-list">
+
+                <!-- ============================================================
+                     POST 1 — Learning Journey
+                     REPLACE: date, category-tag, title, href, excerpt text
+                ============================================================ -->
+                <div class="blog-post-entry">
+                    <div class="blog-post-meta">
+                        <span class="category-tag">Learning Journey</span>
+                        REPLACE: Month DD, YYYY
+                    </div>
+                    <h2>
+                        <a href="REPLACE: link to your post or _posts/filename.html">
+                            REPLACE: Why I'm Learning Machine Learning in 2026 — And What My Curriculum Looks Like
+                        </a>
+                    </h2>
+                    <p class="blog-post-excerpt">
+                        REPLACE: Write 2–3 sentences summarising this post. 
+                        This is what readers see before clicking through. 
+                        Make it specific enough to be interesting but short enough to leave them wanting more. 
+                        Example: "Four years into a career in cybersecurity, I found myself hitting a ceiling I 
+                        couldn't explain. Here's the structured one-month ML curriculum I built to push through it — 
+                        and what I've learned so far."
+                    </p>
+                    <a class="read-more-link" href="REPLACE: same link as above">Read more →</a>
                 </div>
+
+                <!-- ============================================================
+                     POST 2 — Technical Tutorial
+                     REPLACE: date, category-tag, title, href, excerpt text
+                ============================================================ -->
+                <div class="blog-post-entry">
+                    <div class="blog-post-meta">
+                        <span class="category-tag">Technical</span>
+                        REPLACE: Month DD, YYYY
+                    </div>
+                    <h2>
+                        <a href="REPLACE: link to your post or _posts/filename.html">
+                            REPLACE: A Practical Guide to REPLACE: Your Technical Topic Here
+                        </a>
+                    </h2>
+                    <p class="blog-post-excerpt">
+                        REPLACE: Write 2–3 sentences summarising this post.
+                        Example: "RADIUS integration with Entrust Identity Enterprise is one of those 
+                        configurations that looks straightforward until you're three hours into a 
+                        financial institution deployment. This is the guide I wish I had."
+                    </p>
+                    <a class="read-more-link" href="REPLACE: same link as above">Read more →</a>
+                </div>
+
+                <!-- ============================================================
+                     POST 3 — Paper Summary
+                     REPLACE: date, category-tag, title, href, excerpt text
+                ============================================================ -->
+                <div class="blog-post-entry">
+                    <div class="blog-post-meta">
+                        <span class="category-tag">Research</span>
+                        REPLACE: Month DD, YYYY
+                    </div>
+                    <h2>
+                        <a href="REPLACE: link to your post or _posts/filename.html">
+                            REPLACE: Paper Title — What It Says and Why It Matters
+                        </a>
+                    </h2>
+                    <p class="blog-post-excerpt">
+                        REPLACE: Write 2–3 sentences summarising this post.
+                        Example: "This paper tackles one of the most persistent problems in federated 
+                        learning — gradient leakage across participants. Here's what the authors propose, 
+                        what the results actually show, and the question it left me unable to stop thinking about."
+                    </p>
+                    <a class="read-more-link" href="REPLACE: same link as above">Read more →</a>
+                </div>
+
+                <!-- ============================================================
+                     POST 4 — Opinion / Industry Commentary
+                     REPLACE: date, category-tag, title, href, excerpt text
+                ============================================================ -->
+                <div class="blog-post-entry">
+                    <div class="blog-post-meta">
+                        <span class="category-tag">Opinion</span>
+                        REPLACE: Month DD, YYYY
+                    </div>
+                    <h2>
+                        <a href="REPLACE: link to your post or _posts/filename.html">
+                            REPLACE: A Specific, Defensible Claim About Your Industry or Field
+                        </a>
+                    </h2>
+                    <p class="blog-post-excerpt">
+                        REPLACE: Write 2–3 sentences summarising this post.
+                        Example: "The cybersecurity skills gap in Nigerian financial institutions 
+                        is talked about constantly and understood almost never. After four years on 
+                        the inside, I think the diagnosis is wrong — and that matters for how we fix it."
+                    </p>
+                    <a class="read-more-link" href="REPLACE: same link as above">Read more →</a>
+                </div>
+
+                <!-- ============================================================
+                     POST 5 — Personal / Reflective
+                     REPLACE: date, category-tag, title, href, excerpt text
+                ============================================================ -->
+                <div class="blog-post-entry">
+                    <div class="blog-post-meta">
+                        <span class="category-tag">Reflections</span>
+                        REPLACE: Month DD, YYYY
+                    </div>
+                    <h2>
+                        <a href="REPLACE: link to your post or _posts/filename.html">
+                            REPLACE: Something Honest About Where You Are and Where You're Going
+                        </a>
+                    </h2>
+                    <p class="blog-post-excerpt">
+                        REPLACE: Write 2–3 sentences summarising this post.
+                        Example: "I didn't plan to spend four years in identity and access management. 
+                        I definitely didn't plan to find it fascinating. This is a post about 
+                        accidental expertise, deliberate reinvention, and what comes next."
+                    </p>
+                    <a class="read-more-link" href="REPLACE: same link as above">Read more →</a>
+                </div>
+
             </div>
-           
         </div>
-      </body>
+
+    </body>
 </html>
