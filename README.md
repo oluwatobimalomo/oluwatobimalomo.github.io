@@ -36,7 +36,7 @@ This site serves as my academic homepage, hosting information about my research,
  
 - **Artificial Intelligence in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain** — UIJSLICTR, 2025 · [Read](https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041)
 - **Adversarial Training and Differential Privacy for Privacy-Preserving Vertical Federated Learning** — [Under Review]
-- **Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets** — JOSTMED, 2023 · (https://scholar.google.com/citations?view_op=view_citation&hl=en&user=yGvnu_gAAAAJ&citation_for_view=yGvnu_gAAAAJ:u-x6o8ySG0sC)
+- **Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets** — JOSTMED, 2023 · [Read]([https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=yGvnu_gAAAAJ&citation_for_view=yGvnu_gAAAAJ:u-x6o8ySG0sC))
 ---
  
 ## Built With
