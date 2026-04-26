@@ -44,7 +44,7 @@ This site serves as my academic homepage, hosting information about my research,
 - [Jekyll](https://jekyllrb.com/) — Static site generator
 - [Thinkspace](https://github.com/heiswayi/thinkspace) — Jekyll theme
 - [GitHub Pages](https://pages.github.com/) — Hosting
-Forked and adapted from [Steven Kolawole's page](https://stevenkolawole.github.io/).
+Forked from [Steven Kolawole's page](https://stevenkolawole.github.io/).
  
 ---
  
