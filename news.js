@@ -11,9 +11,9 @@ const NEWS_ITEMS = [
   
   `<strong>[Dec 2025]</strong> Our paper, <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank"><span style="color: rgb(128, 118, 10)">Artificial Intelligence in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain</span></a>, was published in <a href="https://journals.ui.edu.ng/index.php/uijslictr/index" target="_blank"><span style="color: rgb(128, 118, 10)">UIJSLICTR 2025</span></a>`,
   
-  `<strong>[Jun 2023]</strong> Our paper, <a href="http://irepo.futminna.edu.ng:8080/jspui/bitstream/123456789/18994/1/Application%20of%20Machine%20Learning%20Algorithm%20for%20Classification%20of%20Fake%20COVID-19%20Tweets.doc" target="_blank"><span style="color: rgb(128, 118, 10)">Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets</span></a>, was published in <a href="" target="_blank"><span style="color: rgb(128, 118, 10)">JOSTMED 2023</span></a>,`,
+  `<strong>[2022]</strong> Our paper, <a href="https://irepo.futminna.edu.ng/handle/123456789/18994" target="_blank" rel="noopener noreferrer"><span style="color: rgb(128, 118, 10)">Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets</span></a>, was published in JOSTMED.`,
 
-  `<strong>[Feb 2022]</strong> I convoked from the Federal University of Technology Minna, graduating Top 1% in my class with First Class Honors.`,
+  `<strong>[2022]</strong> I graduated with First Class Honours in Computer Science from the Federal University of Technology, Minna.`,
 ];
 
 function renderNews(containerId, limit) {
