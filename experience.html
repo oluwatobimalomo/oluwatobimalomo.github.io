@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Experience and Education | Oluwatobi Malomo</title>
     <meta name="description" content="Research, professional experience, education, teaching, service, and awards for Oluwatobi Malomo." />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20261017-3" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -14,14 +14,15 @@
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
         <div class="flex-wrap">
-          <p class="logo"><a href="index.html">Oluwatobi Malomo</a></p>
-          <ul class="navbar">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button>
+          <ul class="navbar" id="primary-navigation" hidden>
             <li><a href="index.html">About</a></li>
             <li><a href="publications.html">Publications</a></li>
             <li><a href="experience.html" class="active" aria-current="page">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="news.html">Highlights</a></li>
-            <li><a href="blog.html">Writing</a></li>
-            <li><a href="assets/docs/Oluwatobi_Malomo.pdf" target="_blank" rel="noopener noreferrer">CV ↗</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="assets/docs/Oluwatobi_Malomo.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
           </ul>
         </div>
       </nav>
@@ -98,5 +99,6 @@
       <p class="cv-callout">For the full record, <a href="assets/docs/Oluwatobi_Malomo.pdf" target="_blank" rel="noopener noreferrer">view or download my CV ↗</a>.</p>
     </main>
     <footer class="site-footer"><div class="container"><small>© Oluwatobi Malomo · <a href="index.html">Back to profile</a></small></div></footer>
+      <script src="assets/js/site-nav.js?v=20261017-3" defer></script>
   </body>
 </html>

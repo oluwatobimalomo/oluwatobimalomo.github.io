@@ -7,9 +7,11 @@ Static academic and professional profile hosted on GitHub Pages at [oluwatobimal
 - `index.html` — profile, research overview, selected publications, highlights, and community impact
 - `publications.html` — publication list and scholarly profiles
 - `experience.html` — research and work experience, education, teaching, service, and awards
+- `projects.html` — selected public research, software, and community projects
 - `news.html` and `news.js` — recent highlights
 - `blog.html` — selected external writing
 - `assets/css/style.css` — shared site styles
+- `assets/js/site-nav.js` — collapsible mobile navigation behavior
 - `assets/docs/Oluwatobi_Malomo.pdf` — downloadable CV
 - `assets/img/` — profile and other images
 
