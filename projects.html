@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Projects | Oluwatobi Malomo</title>
     <meta name="description" content="Selected research, software, and community projects by Oluwatobi Malomo." />
-    <link rel="stylesheet" href="assets/css/style.css?v=20261017-7" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20261017-10" />
   </head>
   <body>
+    <svg aria-hidden="true" class="svg-sprite" hidden xmlns="http://www.w3.org/2000/svg"><symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.82c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.77 2.52 4.17 1.78.1-.73.4-1.22.72-1.5-2.5-.28-5.12-1.25-5.12-5.56 0-1.23.44-2.23 1.16-3.02-.12-.29-.5-1.43.11-2.98 0 0 .95-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.13-1.45 3.08-1.15 3.08-1.15.61 1.55.23 2.69.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.32-2.62 5.27-5.13 5.55.4.35.77 1.03.77 2.08v3.08c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></symbol></svg>
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
         <div class="flex-wrap">
@@ -32,50 +33,61 @@
         <p class="page-deck">A selection of research implementations and software projects addressing challenges in privacy, safety, digital trust and application of AI in various domains.</p>
       </header>
 
-      <section class="project-grid" aria-label="Selected projects">
-        <article class="project-card">
-          <p class="card-label">TRUST AND DIGITAL COMMERCE</p>
-          <h2><a href="https://trustlock.site" target="_blank" rel="noopener noreferrer">TrustLock Escrow Platform</a></h2>
-          <p>Buyers and sellers can struggle to trust one another in online transactions. TrustLock explores escrow workflows that coordinate payments, identity checks, and dispute handling around agreed terms.</p>
-          <div class="project-links">
-            <a href="https://trustlock.site" target="_blank" rel="noopener noreferrer">Visit platform ↗</a>
-            <a href="https://github.com/oluwatobimalomo/escrow-node" target="_blank" rel="noopener noreferrer">View source ↗</a>
+      <section class="project-list" aria-label="Selected projects">
+        <article class="project-row">
+          <div class="project-kind"><span class="project-number">01</span><span>Digital commerce</span></div>
+          <div class="project-content">
+            <h2><a href="https://trustlock.site" target="_blank" rel="noopener noreferrer">TrustLock</a></h2>
+            <p>Online buyers and sellers need a safer way to complete transactions. TrustLock holds payment until delivery is confirmed and both sides are satisfied.</p>
+          </div>
+          <div class="project-links" aria-label="TrustLock links">
+            <a class="project-icon-link" href="https://github.com/oluwatobimalomo/escrow-node" target="_blank" rel="noopener noreferrer" aria-label="TrustLock source code on GitHub" title="Source code on GitHub"><svg aria-hidden="true"><use href="#icon-github" /></svg></a>
           </div>
         </article>
-
-        <article class="project-card">
-          <p class="card-label">PRIVACY-PRESERVING MACHINE LEARNING</p>
-          <h2>Vertical Federated Learning Privacy Defense</h2>
-          <p>VFL supports collaboration across separate feature sets, but model outputs may reveal private labels. This implementation combines Adversarial Training and Differential Privacy to reduce inference risk while preserving model utility.</p>
-          <div class="project-links">
-            <a href="https://www.mdpi.com/2227-9709/13/8/127" target="_blank" rel="noopener noreferrer">Read Paper ↗</a>
+        <article class="project-row">
+          <div class="project-kind"><span class="project-number">02</span><span>Privacy research</span></div>
+          <div class="project-content">
+            <h2><a href="https://www.mdpi.com/2227-9709/13/8/127" target="_blank" rel="noopener noreferrer">Vertical Federated Learning Privacy Defense</a></h2>
+            <p>Federated models can expose private labels through their outputs. This work combines adversarial training and differential privacy to reduce inference risk while preserving model utility.</p>
+          </div>
+          <div class="project-links" aria-label="Vertical Federated Learning Privacy Defense links">
+            <a class="project-icon-link" href="https://github.com/oluwatobimalomo/KDk-AT-DP-Implementation" target="_blank" rel="noopener noreferrer" aria-label="Implementation on GitHub" title="Implementation on GitHub"><svg aria-hidden="true"><use href="#icon-github" /></svg></a>
           </div>
         </article>
-
-        <article class="project-card">
-          <p class="card-label">COMMUNITY OPERATIONS</p>
-          <h2>YMR Accommodation Booking</h2>
-          <p>Large events must manage accommodation across lodges, rooms, and bedspaces. This platform combines inventory, attendee bookings, payment status, and admin operations in one workflow.</p>
-          <div class="project-links"><a href="https://github.com/oluwatobimalomo/ymr-accommodation" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+        <article class="project-row">
+          <div class="project-kind"><span class="project-number">03</span><span>Event operations</span></div>
+          <div class="project-content">
+            <h2>YMR Accommodation Booking</h2>
+            <p>A booking and accommodation management system for a large annual retreat, covering lodges, reservations, payments, check-in, and staff operations.</p>
+          </div>
+          <div class="project-links" aria-label="YMR Accommodation Booking links">
+              <a class="project-icon-link" href="https://github.com/oluwatobimalomo/ymr-accommodation" target="_blank" rel="noopener noreferrer" aria-label="YMR Accommodation Booking on GitHub" title="View on GitHub"><svg aria-hidden="true"><use href="#icon-github" /></svg></a>
+          </div>
         </article>
-
-        <article class="project-card">
-          <p class="card-label">HEALTH DATA AND MACHINE LEARNING</p>
-          <h2>Heart disease classification app</h2>
-          <p>This project applies an optimized XGBoost classifier to explore heart disease prediction from health data. It is a modeling demonstration, not a clinical diagnostic tool.</p>
-          <div class="project-links"><a href="https://github.com/oluwatobimalomo/HeartDiseaseApp" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></div>
+        <article class="project-row">
+          <div class="project-kind"><span class="project-number">04</span><span>Health technology</span></div>
+          <div class="project-content">
+            <h2>Heart disease classification app</h2>
+            <p>A web-based health information system with an XGBoost model for heart disease risk prediction, appointments, and clinical operations.</p>
+          </div>
+          <div class="project-links" aria-label="Heart disease classification app links">
+              <a class="project-icon-link" href="https://github.com/oluwatobimalomo/HeartDiseaseApp" target="_blank" rel="noopener noreferrer" aria-label="Heart disease classification app on GitHub" title="View on GitHub"><svg aria-hidden="true"><use href="#icon-github" /></svg></a>
+          </div>
         </article>
-
-        <article class="project-card">
-          <p class="card-label">VISITOR FOLLOW-UP</p>
-          <h2>Envoys visitor care dashboard</h2>
-          <p>Community teams need a reliable way to track first-time visitors and follow-up. This dashboard brings visitation details and soul-care workflows together to help volunteers coordinate care.</p>
-          <div class="project-links"><a href="https://github.com/oluwatobimalomo/envoys-dashboard" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></div>
+        <article class="project-row">
+          <div class="project-kind"><span class="project-number">05</span><span>Community care</span></div>
+          <div class="project-content">
+            <h2>Envoys Retention App</h2>
+            <p>A mobile-first follow-up tool that helps community teams coordinate care for visitors, new members, and people who need ongoing support.</p>
+          </div>
+          <div class="project-links" aria-label="Envoys Retention App links">
+              <a class="project-icon-link" href="https://github.com/oluwatobimalomo/envoys-dashboard" target="_blank" rel="noopener noreferrer" aria-label="Envoys Retention App on GitHub" title="View on GitHub"><svg aria-hidden="true"><use href="#icon-github" /></svg></a>
+          </div>
         </article>
       </section>
     </main>
 
     <footer class="site-footer"><div class="container"><small>© Oluwatobi Malomo · <a href="index.html">Back to profile</a></small></div></footer>
-      <script src="assets/js/site-nav.js?v=20261017-7" defer></script>
+      <script src="assets/js/site-nav.js?v=20261017-10" defer></script>
   </body>
 </html>
