@@ -20,8 +20,14 @@
     if (event.target.closest('a')) setOpen(false);
   });
 
+  document.addEventListener('click', (event) => {
+    if (!desktop.matches && !menu.hidden && !menu.closest('.nav').contains(event.target)) {
+      setOpen(false);
+    }
+  });
+
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
+    if (event.key === 'Escape' && !desktop.matches && !menu.hidden) {
       setOpen(false);
       toggle.focus();
     }

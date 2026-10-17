@@ -1,19 +1,12 @@
 const NEWS_ITEMS = [
-  `<strong>[Aug 2026]</strong> Our paper, Adversarial Training and Differential Privacy-Style Noise Injection for Privacy-Preserving Vertical Federated Learning, was published in <a href="http://www.mdpi.com/journal/informatics" target="_blank" rel="noopener noreferrer">Informatics 2026</a>`,
-  
-  `<strong>[May 2026]</strong> Our paper, Investigation of Augmented Datasets for Security In Internet Of Medical Things (IoMT) Ecosystems, was published in <a href="https://www.mdpi.com/2073-431X/15/6/369" target="_blank" rel="noopener noreferrer"><i>Computers 2026</i></a>`,
-  
-  `<strong>[May 2026]</strong> Our Case Study, Overwhelmed and In Retreat: Expectation, Preparation, and Realized Experiences Clash on an Exchange Program, was accepted in <a href="https://www.csiepub.org" target="_blank" rel="noopener noreferrer">Case Studies in International Education Issue #7(1)</a>`,
-  
-  `<strong>[Apr 2026]</strong> Our paper, From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems, was submitted to <a href="http://jecasmu.org" target="_blank" rel="noopener noreferrer">JECASMU 2026</a>`,
-  
-  `<strong>[Jan 2026]</strong> I completed my Masters Degree in Computer Science at the <a href="https://unilag.edu.ng/" target="_blank" rel="noopener noreferrer">University of Lagos (The Nation's Pride)</a>.`,
-  
-  `<strong>[Dec 2025]</strong> Our paper, <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank" rel="noopener noreferrer">Artificial Intelligence in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain</a>, was published in <a href="https://journals.ui.edu.ng/index.php/uijslictr/index" target="_blank" rel="noopener noreferrer">UIJSLICTR 2025</a>`,
-  
-  `<strong>[2022]</strong> Our paper, <a href="https://irepo.futminna.edu.ng/handle/123456789/18994" target="_blank" rel="noopener noreferrer">Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets</a>, was published in JOSTMED.`,
-
-  `<strong>[2022]</strong> I graduated with First Class Honours in Computer Science from the Federal University of Technology, Minna.`,
+  `<strong>[Aug 2026]</strong> <a href="https://www.mdpi.com/2227-9709/13/8/127" target="_blank" rel="noopener noreferrer">Adversarial Training and Differential Privacy-Style Noise Injection for Privacy-Preserving Vertical Federated Learning</a>. Azeez Nureni, Oluwatobi Malomo, et al. <i>Informatics</i>, 13(8), 127.`,
+  `<strong>[May 2026]</strong> <a href="https://www.mdpi.com/2073-431X/15/6/369" target="_blank" rel="noopener noreferrer">Investigation of Augmented Datasets for Security in Internet of Medical Things (IoMT) Ecosystems</a>. Azeez Nureni, Ademoye Abdullateef, Oluwatobi Malomo, et al. <i>Computers</i>, 15(6), 369.`,
+  `<strong>[May 2026]</strong> Overwhelmed and In Retreat: Expectation, Preparation, and Realized Experiences Clash on an Exchange Program. Accepted for <i>Case Studies in International Education</i>, issue 7(1).`,
+  `<strong>[Apr 2026]</strong> From Data to Diagnosis: Facilitating Physician-AI Synergy in Heart Disease Prediction Systems. Oluwaseun Ojerinde and Oluwatobi Malomo. Manuscript under review at the <i>Journal of Engineering and Applied Sciences</i>.`,
+  `<strong>[Jan 2026]</strong> MSc in Computer Science, University of Lagos. Degree completed.`,
+  `<strong>[Dec 2025]</strong> <a href="https://journals.ui.edu.ng/index.php/uijslictr/article/view/2041" target="_blank" rel="noopener noreferrer">Artificial Intelligence in Cybersecurity: A Comparative Review of Its Role across the Cyber Kill Chain</a>. Azeez Nureni, Oluwatobi Malomo, et al. <i>UIJSLICTR</i>, 2025.`,
+  `<strong>[2022]</strong> <a href="https://irepo.futminna.edu.ng/handle/123456789/18994" target="_blank" rel="noopener noreferrer">Application of Machine Learning Algorithm for Classification of Fake COVID-19 Tweets</a>. Oluwatobi Malomo, Andrew Uduimoh, and Alhassan John. <i>JOSTMED</i>, 2022.`,
+  `<strong>[2022]</strong> First Class Honours in Computer Science, Federal University of Technology, Minna.`,
 ];
 
 function renderNews(containerId, limit) {
